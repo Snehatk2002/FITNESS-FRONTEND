@@ -36,3 +36,96 @@
     transform: rotate(360deg);
   }
 }
+
+/* Background styling - common to both pages */
+.page-background {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* Card styling */
+.card {
+  border-radius: 15px;
+  border: none;
+  padding: 40px;
+  background-color: #fff;
+ 
+
+}
+
+/* Input group styling */
+.input-group-text {
+  background-color: #f8f9fa;
+  border: none;
+}
+
+/* Button styling */
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Secondary button styling (for Admin login) */
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Text center alignment */
+.text-center {
+  text-align: center;
+}
+
+/* Margin between elements */
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full-page height for centering */
+  background-color: transparent;
+  background-image: url('https://www.cnet.com/a/img/xTxcPDFXQW0fS-laDcJdlRgCd18=/1200x630/2020/03/06/5afa92b5-777b-4ef8-ab4a-07253682bffe/gettyimages-1132006407.jpg'); /* Path to your background image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+
+/* Applies only to the signup page */
+.register-page {
+  background-color: transparent; 
+  
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;/* Shared gradient already applied */
+}
+
+
+.admin-login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 20px;
+  background-image: url('https://www.hussle.com/blog/wp-content/uploads/2020/12/Gym-structure-1080x675.png'); /* Path to your background image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  
+}
